@@ -4,6 +4,8 @@
 ```
 uvicorn user_service:app
 ```
+![image](https://github.com/Kirilligu/Logging1/assets/149255706/f6cb8076-5827-4969-accf-556d98839dc7)
+
 2. Запустить publisher и subscriber
 ```
 python subscriber.py

@@ -4,23 +4,23 @@
 ```
  pip install uvicorn
 ```
-2. requests
+#### 2. requests
 ```
 pip install requests
 ```
-3. paho-mqtt
+#### 3. paho-mqtt
 ```
 pip install paho-mqtt==1.5.1
 ```
 
 ### Для работы приложения треубется:
-1. Запустить user_service
+#### 1. Запустить user_service
 ```
 uvicorn user_service:app
 ```
 ![image](https://github.com/Kirilligu/Logging1/assets/149255706/f6cb8076-5827-4969-accf-556d98839dc7)
 
-2. Запустить publisher и subscriber
+#### 2. Запустить publisher и subscriber
 ```
 python subscriber.py
 python publisher.py 
@@ -28,7 +28,8 @@ python publisher.py
 ![image](https://github.com/Kirilligu/Logging1/assets/149255706/1feb3cdf-fff0-4a37-b2c9-670898350bc8)
 ![image](https://github.com/Kirilligu/Logging1/assets/149255706/7dda57f4-7394-43ba-ba36-4ac441be6233)
 
-Все приложения запускайте в разных терминалах, для корректной работы программы!
+## Все приложения запускайте в разных терминалах, для корректной работы программы!
+
 ### После запуска приложений у вас автоматически создатутся файлы с логами
 Для проверки логов на корректность восользуйтесь кодом checkLoogs
 - Запустите в отедльном окне checkLogs

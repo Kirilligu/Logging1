@@ -11,6 +11,9 @@ uvicorn user_service:app
 python subscriber.py
 python publisher.py 
 ```
+![image](https://github.com/Kirilligu/Logging1/assets/149255706/1feb3cdf-fff0-4a37-b2c9-670898350bc8)
+![image](https://github.com/Kirilligu/Logging1/assets/149255706/7dda57f4-7394-43ba-ba36-4ac441be6233)
+
 Все приложения запускайте в разных терминалах, для корректной работы программы!
 ### После запуска приложений у вас автоматически создатутся файлы с логами
 Для проверки логов на корректность восользуйтесь кодом checkLoogs

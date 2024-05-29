@@ -12,7 +12,7 @@ pip install requests
 ```
 pip install paho-mqtt==1.5.1
 ```
-Для работы приложения треубется:
+### Для работы приложения треубется:
 1. Запустить user_service
 ```
 uvicorn user_service:app

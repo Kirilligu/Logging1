@@ -1,4 +1,17 @@
 # Логирование
+Перед запуском требуется установить:
+1. uvicorn
+```
+ pip install uvicorn
+```
+2. requests
+```
+pip install requests
+```
+3. paho-mqtt
+```
+pip install paho-mqtt==1.5.1
+```
 Для работы приложения треубется:
 1. Запустить user_service
 ```
